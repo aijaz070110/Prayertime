@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+ tools:context=".MainActivity"
+    android:background="@drawable/appbag"
+    >
+
+    <TextView
+        android:id="@+id/prayer_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="PRAYER TIME "
+        android:textColor="@color/black"
+        android:textSize="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/subHeadingTv"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="NAMAZ AND QIBLA"-->
+        <!--android:textColor="#FFAA66CC"-->
+        <!--android:textSize="25dp"-->
+        <!--android:layout_below="@+id/prayer_time"/>-->
+
+    <!--<ImageView-->
+
+        <!--android:id="@+id/imageViewCompass"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/subHeadingTv"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:src="@drawable/compass" />-->
+        <!--android:background="#7FFFD4"-->
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/namaz"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="40dp"
+        android:src = "@drawable/prayerbtn"
+        android:background="@color/transparent"
+        android:scaleType="fitXY"
+
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/qibla"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent"
+        android:layout_marginRight="40dp"
+        android:src="@drawable/qiblaicon"
+        android:scaleType="fitXY"
+
+
+        />
+
+    <ImageButton
+        android:id="@+id/locationBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_below="@+id/namaz"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/locationicon"
+        android:scaleType="fitXY"
+        android:background="@color/transparent"
+
+        />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/aboutusicon"
+        android:scaleType="fitXY"
+        android:background="@color/transparent"
+        />
+    <FrameLayout
+        android:id="@+id/bannerFL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/Banner_ad_unit_id"></com.google.android.gms.ads.AdView>
+
+
+    </FrameLayout>
+
+</RelativeLayout>

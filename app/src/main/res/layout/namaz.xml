@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#000000">
+
+<FrameLayout
+    android:id="@+id/box"
+    android:layout_height="400dp"
+    android:layout_centerHorizontal="true"
+    android:layout_width="320dp"
+    android:layout_marginTop="50dp"
+    android:background="#FF0099CC"
+   />
+
+
+    <TextView
+        android:id="@+id/fajarTv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Fajar 00:00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="40dp"
+
+
+        />
+       // android:drawableLeft="@drawable/fajar"
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        android:layout_toRightOf="@+id/fajarTv"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+         android:layout_marginTop="110dp"
+        android:id="@+id/ring"
+        android:background="@color/tranparent"
+        android:gravity="center_vertical"
+        />
+
+    <TextView
+        android:id="@+id/zuharTv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Zohar 00:00"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        android:layout_toRightOf="@+id/zuharTv"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="170dp"
+        android:id="@+id/ringzohar"
+        android:background="@color/transparent"
+        />
+
+
+    <TextView
+        android:id="@+id/dateTv"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="Date  "
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:id="@+id/AsarTv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Asar     00:00"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="230dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        android:layout_toRightOf="@+id/AsarTv"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="230dp"
+        android:id="@+id/ringasar"
+        android:background="@color/transparent"
+        />
+
+    <TextView
+        android:id="@+id/magribTv"
+        android:layout_width="180dp"
+        android:layout_height="70dp"
+        android:text="Magrib 00:00"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        android:layout_toRightOf="@+id/fajarTv"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:id="@+id/ringmagrib"
+        android:background="@color/transparent"
+        />
+
+
+    <TextView
+        android:id="@+id/IshaTv"
+    android:layout_width="180dp"
+    android:layout_height="70dp"
+    android:text="Isha      00:00"
+    android:textSize="30dp"
+    android:layout_centerInParent="true"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="360dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textStyle="bold"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/untitled"
+        android:layout_toRightOf="@+id/IshaTv"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="350dp"
+        android:id="@+id/ringisha"
+        android:background="@color/transparent"
+        />
+
+
+
+</RelativeLayout>
+
+
+
